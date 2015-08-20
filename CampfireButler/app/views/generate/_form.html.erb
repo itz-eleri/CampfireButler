@@ -1,0 +1,37 @@
+<%= form_for(@generate) do |f| %>
+  <% if @generate.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@generate.errors.count, "error") %> prohibited this camp generation from being saved:</h2>
+
+      <ul>
+      <% @generate.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :section %><br>
+    <%= f.text_field :section %>
+  </div>
+  <div class="field">
+    <%= f.label :number %><br>
+    <%= f.text_area :number %>
+  </div>
+  <div class="field">
+    <%= f.label :starttime %><br>
+    <%= f.file_field :starttime %>
+  </div>
+  <div class="field">
+    <%= f.label :endtime %><br>
+    <%= f.file_field :endtime %>
+  </div>
+  <div class="field">
+    <%= f.label :allergies %><br>
+    <%= f.file_field :allergies %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

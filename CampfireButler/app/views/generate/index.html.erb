@@ -1,0 +1,20 @@
+<h1>What Kind of Camping Would You Like To Do?</h1>
+
+<button class="btn btn-warning">Joeys</button>
+<button class="btn btn-success">Cubs</button>
+<button class="btn btn-primary">Scouts</button>
+<button class="btn btn-primary">Venturers</button>
+<button class="btn btn-danger">Rovers</button>
+
+<p> It is now <%= @time %><br/>
+Customise Menu <%= link_to "Customise", generate_customise_path %>! 
+</p>
+
+
+<% for recipe in @recipebook %>
+<ul> 
+	<li>recipe name is: <%= recipe %></li>
+</ul>
+<% end %>
+
+
