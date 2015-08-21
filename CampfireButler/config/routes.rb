@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'meal_plan/create'
+
+  get 'meal_plan/show'
+
+  get 'meal_plan/edit'
+
+  get 'meal_plan/print'
+
+  get 'generate/index'
+
+  get 'generate/createmeal'
+
+  get 'generate/showmeal'
+
+  get 'generate/editmeal'
+
   get 'generate/index'
 
   get 'generate/customise'
@@ -9,7 +25,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'generate#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

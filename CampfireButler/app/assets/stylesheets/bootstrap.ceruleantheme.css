@@ -652,6 +652,33 @@ a.btn.disabled,fieldset[disabled] a.btn{pointer-events:none}
 .btn-joeys.disabled,.btn-joeys[disabled],fieldset[disabled] .btn-joeys,.btn-joeys.disabled:hover,.btn-joeys[disabled]:hover,fieldset[disabled] .btn-joeys:hover,.btn-joeys.disabled:focus,.btn-joeys[disabled]:focus,fieldset[disabled] .btn-joeys:focus,.btn-joeys.disabled.focus,.btn-joeys[disabled].focus,fieldset[disabled] .btn-joeys.focus,.btn-joeys.disabled:active,.btn-joeys[disabled]:active,fieldset[disabled] .btn-joeys:active,.btn-joeys.disabled.active,.btn-joeys[disabled].active,fieldset[disabled] .btn-joeys.active{background-color:#9b4224;border-color:#9b4224}
 .btn-joeys .badge{color:#9b4224;background-color:#ffffff}
 
+.btn-cubs{color:#ffffff;background-color:#f2be08;border-color:#f2be08}
+.btn-cubs:focus,.btn-cubs.focus{color:#ffffff;background-color:#edb11d;border-color:#edb11d}
+.btn-cubs:hover{color:#ffffff;background-color:#edb11d;border-color:#edb11d}
+.btn-cubs:active,.btn-cubs.active,.open>.dropdown-toggle.btn-cubs{color:#ffffff;background-color:#edb11d;border-color:#edb11d}
+.btn-cubs:active:hover,.btn-cubs.active:hover,.open>.dropdown-toggle.btn-cubs:hover,.btn-cubs:active:focus,.btn-cubs.active:focus,.open>.dropdown-toggle.btn-cubs:focus,.btn-cubs:active.focus,.btn-cubs.active.focus,.open>.dropdown-toggle.btn-cubs.focus{color:#ffffff;background-color:#edb11d;border-color:#edb11d}
+.btn-cubs:active,.btn-cubs.active,.open>.dropdown-toggle.btn-cubs{background-image:none}
+.btn-cubs.disabled,.btn-cubs[disabled],fieldset[disabled] .btn-cubs,.btn-cubs.disabled:hover,.btn-cubs[disabled]:hover,fieldset[disabled] .btn-cubs:hover,.btn-cubs.disabled:focus,.btn-cubs[disabled]:focus,fieldset[disabled] .btn-cubs:focus,.btn-cubs.disabled.focus,.btn-cubs[disabled].focus,fieldset[disabled] .btn-cubs.focus,.btn-cubs.disabled:active,.btn-cubs[disabled]:active,fieldset[disabled] .btn-cubs:active,.btn-cubs.disabled.active,.btn-cubs[disabled].active,fieldset[disabled] .btn-cubs.active{background-color:#f2be08;border-color:#f2be08}
+.btn-cubs .badge{color:#f2be08;background-color:#ffffff}
+
+.btn-scouts{color:#ffffff;background-color:#094430;border-color:#094430}
+.btn-scouts:focus,.btn-scouts.focus{color:#ffffff;background-color:#0f3528;border-color:#0f3528}
+.btn-scouts:hover{color:#ffffff;background-color:#0f3528;border-color:#0f3528}
+.btn-scouts:active,.btn-scouts.active,.open>.dropdown-toggle.btn-scouts{color:#ffffff;background-color:#0f3528;border-color:#0f3528}
+.btn-scouts:active:hover,.btn-scouts.active:hover,.open>.dropdown-toggle.btn-scouts:hover,.btn-scouts:active:focus,.btn-scouts.active:focus,.open>.dropdown-toggle.btn-scouts:focus,.btn-scouts:active.focus,.btn-scouts.active.focus,.open>.dropdown-toggle.btn-scouts.focus{color:#ffffff;background-color:#0f3528;border-color:#0f3528}
+.btn-scouts:active,.btn-scouts.active,.open>.dropdown-toggle.btn-scouts{background-image:none}
+.btn-scouts.disabled,.btn-scouts[disabled],fieldset[disabled] .btn-scouts,.btn-scouts.disabled:hover,.btn-scouts[disabled]:hover,fieldset[disabled] .btn-scouts:hover,.btn-scouts.disabled:focus,.btn-scouts[disabled]:focus,fieldset[disabled] .btn-scouts:focus,.btn-scouts.disabled.focus,.btn-scouts[disabled].focus,fieldset[disabled] .btn-scouts.focus,.btn-scouts.disabled:active,.btn-scouts[disabled]:active,fieldset[disabled] .btn-scouts:active,.btn-scouts.disabled.active,.btn-scouts[disabled].active,fieldset[disabled] .btn-scouts.active{background-color:#094430;border-color:#094430}
+.btn-scouts .badge{color:#094430;background-color:#ffffff}
+
+.btn-venturers{color:#ffffff;background-color:#7a1c4e;border-color:#7a1c4e}
+.btn-venturers:focus,.btn-venturers.focus{color:#ffffff;background-color:#5c1f40;border-color:#5c1f40}
+.btn-venturers:hover{color:#ffffff;background-color:#5c1f40;border-color:#5c1f40}
+.btn-venturers:active,.btn-venturers.active,.open>.dropdown-toggle.btn-venturers{color:#ffffff;background-color:#5c1f40;border-color:#5c1f40}
+.btn-venturers:active:hover,.btn-venturers.active:hover,.open>.dropdown-toggle.btn-venturers:hover,.btn-venturers:active:focus,.btn-venturers.active:focus,.open>.dropdown-toggle.btn-venturers:focus,.btn-venturers:active.focus,.btn-venturers.active.focus,.open>.dropdown-toggle.btn-venturers.focus{color:#ffffff;background-color:#5c1f40;border-color:#5c1f40}
+.btn-venturers:active,.btn-venturers.active,.open>.dropdown-toggle.btn-venturers{background-image:none}
+.btn-venturers.disabled,.btn-venturers[disabled],fieldset[disabled] .btn-venturers,.btn-venturers.disabled:hover,.btn-venturers[disabled]:hover,fieldset[disabled] .btn-venturers:hover,.btn-venturers.disabled:focus,.btn-venturers[disabled]:focus,fieldset[disabled] .btn-venturers:focus,.btn-venturers.disabled.focus,.btn-venturers[disabled].focus,fieldset[disabled] .btn-venturers.focus,.btn-venturers.disabled:active,.btn-venturers[disabled]:active,fieldset[disabled] .btn-venturers:active,.btn-venturers.disabled.active,.btn-venturers[disabled].active,fieldset[disabled] .btn-venturers.active{background-color:#7a1c4e;border-color:#7a1c4e}
+.btn-venturers .badge{color:#7a1c4e;background-color:#ffffff}
+
 
 
 

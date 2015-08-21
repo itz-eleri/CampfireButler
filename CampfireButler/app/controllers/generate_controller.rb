@@ -1,9 +1,11 @@
 class GenerateController < ApplicationController
-  def input
-	@time = Time.now
-	@recipebook = Dir.glob('*')
+  def index
+
   end
 
   def customise
+
   end
+
+ 
 end
