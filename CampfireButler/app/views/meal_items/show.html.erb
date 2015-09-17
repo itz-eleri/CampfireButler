@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong> title:</strong>
+  <%= @meal_item. title %>
+</p>
+
+<p>
+  <strong>Num-serves:</strong>
+  <%= @meal_item.num-serves %>
+</p>
+
+<p>
+  <strong>Size-serve:</strong>
+  <%= @meal_item.size-serve %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @meal_item.comments %>
+</p>
+
+<%= link_to 'Edit', edit_meal_item_path(@meal_item) %> |
+<%= link_to 'Back', meal_items_path %>

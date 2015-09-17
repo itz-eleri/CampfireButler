@@ -1,13 +1,29 @@
-<head>Let's Make a Camp Menu</head>
-
-
-<div class="panel">
+<div class="navbar">
 	<button class="btn btn-warning">Joeys</button>
 	<button class="btn btn-success">Cubs</button>
 	<button class="btn btn-primary">Scouts</button>
 	<button class="btn btn-primary">Venturers</button>
 	<button class="btn btn-danger">Rovers</button>
+
 </div>
+<header>Let's Make a Camp Menu</header>
+
+<nav class='nav'>
+      <div class='cell'>
+        <a class='nav-logo' href='/'>
+          <div class='shing'>
+            <img src='/assets/images/logo.png' alt='Sweet Lands' />
+          </div>
+        </a>
+        <ul class='nav-menu'>
+          <li><a href='#retweets'>Retweets</a></li>
+          <li><a href='#pictures'>Pictures</a></li>
+          <li><a href='#event'>Upcoming</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
 <p> It is now <%= @time %><br/>
 Customise Menu <%= link_to "Customise", generate_customise_path %>! 
 </p>

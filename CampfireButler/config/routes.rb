@@ -1,11 +1,5 @@
 Rails.application.routes.draw do
-  get 'meal_plan/create'
-
-  get 'meal_plan/show'
-
-  get 'meal_plan/edit'
-
-  get 'meal_plan/print'
+  resources :meal_items
 
   get 'generate/index'
 
