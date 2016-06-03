@@ -24,3 +24,81 @@ ActiveRecord::Schema.define(version: 20150820055208) do
   end
 
 end
+
+
+#
+
+#create_table "camp", force: :cascade do |t|
+#    t.datetime "start-time"
+#    t.datetime "end-time"
+#    t.integer  "num-children"
+#    t.integer  "num-leaders"
+#    t.string   "allergies", FOREIGN_KEY
+#    t.datetime "created_at", null: false
+#    t.datetime "updated_at", null: false
+#  end
+#
+#
+#create_table "programme", force: :cascade do |t|
+#    t.datetime "date"
+#    t.string   "meal-type"
+#    t.string   "menu", FOREIGN_KEY
+#    t.datetime "created_at", null: false
+#    t.datetime "updated_at", null: false
+#  end
+#
+#
+#
+#create_table "meal", force: :cascade do |t|
+#    t.datetime "type"
+#    t.string   "meal-items"
+#    t.string   "drink-items", FOREIGN_KEY
+#    t.datetime "created_at", null: false
+#    t.datetime "updated_at", null: false
+#  end
+#
+#
+#
+#create_table "menu", force: :cascade do |t|
+#    t.string   "name"
+#    t.integer  "serving metric"
+#    t.string   "ingredients", FOREIGN_KEY
+#    t.time     "prep-time"
+#    t.time     "cook-time"
+#    t.string   "recipe", FOREIGN_KEY
+#    t.string   "equipment", FOREIGN_KEY
+#    t.datetime "created_at", null: false
+#    t.datetime "updated_at", null: false
+#  end
+#
+#
+#
+#create_table "recipe", force: :cascade do |t|
+#    t.datetime "date"
+#    t.string   "meal-type"
+#    t.string   "menu", FOREIGN_KEY
+#    t.datetime "created_at", null: false
+#    t.datetime "updated_at", null: false
+#  end
+#
+#
+#
+#create_table "ingredients", force: :cascade do |t|
+#    t.string "name"
+#    t.string   "container size"
+#    t.string   "servings"
+#    t.datetime "created_at", null: false
+#    t.datetime "updated_at", null: false
+#  end
+#
+#
+#
+#create_table "allergies", force: :cascade do |t|
+#    t.string   "patient name"
+#    t.string   "allergy name"
+#    t.string   "severity"
+#    t.string   "medicine"
+#    t.datetime "created_at", null: false
+#    t.datetime "updated_at", null: false
+#  end
+#
